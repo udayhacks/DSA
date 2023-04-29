@@ -29,6 +29,13 @@ def printInorder(root):
  
         # now recur on right child
         printInorder(root.right)
+
+
+
+
+def preOrder(root):
+    print(root.val)
+    
  
  
 # Driver code
