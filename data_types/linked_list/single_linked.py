@@ -44,10 +44,7 @@ class Single_linked_list():
             current = next_address 
             
         self.head = prev
-        
-        
-        
-        
+            
     def Delete (self,position):
         
         current = self.head
@@ -69,19 +66,6 @@ class Single_linked_list():
             #print("{}".format(current.data))
             prev.next = current.next
            
-
-        
-        
-         
-        
-        
-        
-        
-        
-        
-        
-        
-          
     def check(self,data) :
         key = self.head 
         count = 0 
@@ -91,8 +75,7 @@ class Single_linked_list():
                 return print("FOUND AT" , count)
             key = key.next
         return print("NOT FOUND")
-            
-       
+    
     def Print(self):
         node = self.head  # "node" isis the Node object 
         while node:
